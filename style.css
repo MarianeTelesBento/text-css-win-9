@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: 0;
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 10px;
+    top: 130px;
+    height: 60px;
+}
+sup{
+    font-size: 12px;
+}
+
+div{
+    position: absolute;    
+    border-style: outset;
+    border-width: 2px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.quadro1{
+    background-image: linear-gradient(-45deg, #E3CB0F , 30% , #C10700);
+}
+.quadro2{
+    background-image: linear-gradient(45deg, #C3D56F, 30%, #255D12);
+    left: 52px;
+}
+.quadro3{
+    background-image: linear-gradient(-130deg, #C7E2ED , 30% , #1E4F9E);
+    top: 52px;
+}
+.quadro4{
+    background-image: linear-gradient(130deg, #FBEB9E , 30% , #F98909);
+    top: 52px;
+    left: 52px;
+}
